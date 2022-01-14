@@ -1,1 +1,1 @@
-web: java -jar target/crypto-binance.jar
+web: java -Dserver.ssl.key-store=src/main/resources/keystore/crypto.p12 -jar target/crypto-binance.jar
