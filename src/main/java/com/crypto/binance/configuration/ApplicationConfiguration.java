@@ -4,13 +4,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 import com.crypto.binance.configuration.openapi.OpenApiConfiguration;
-import com.crypto.binance.configuration.security.SecurityConfiguration;
 
 @Configuration
-@Import({
-            OpenApiConfiguration.class
-//            SecurityConfiguration.class
-        })
+@Import(OpenApiConfiguration.class)
 public class ApplicationConfiguration {
 
 }
