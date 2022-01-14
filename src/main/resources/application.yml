@@ -2,9 +2,18 @@ server:
   port: 8080
   servlet:
     context-path: /
+  ssl:
+    key-store: classpath:keystore/crypto.p12
+    key-store-password: crypto
+    key-alias: crypto
+    enabled: true
 spring:
   application:
     name: crypto_binance
+  security:
+    user:
+      name: crypto
+      password: crypto
   servlet:
     multipart:
       max-file-size: 100MB

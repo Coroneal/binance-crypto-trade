@@ -14,10 +14,11 @@
     <artifactId>crypto-binance</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>crypto-binance</name>
-    <description>Crypto binance projectt</description>
+    <description>Crypto binance project</description>
 
     <properties>
         <java.version>17</java.version>
+        <springdoc-openapi-ui.version>1.6.4</springdoc-openapi-ui.version>
     </properties>
 
     <dependencies>
@@ -26,9 +27,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.6.4</version>
+            <version>${springdoc-openapi-ui.version}</version>
         </dependency>
     </dependencies>
 
