@@ -8,8 +8,8 @@ import com.crypto.binance.configuration.security.SecurityConfiguration;
 
 @Configuration
 @Import({
-            OpenApiConfiguration.class,
-            SecurityConfiguration.class
+            OpenApiConfiguration.class
+//            SecurityConfiguration.class
         })
 public class ApplicationConfiguration {
 

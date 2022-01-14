@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -Dserver.ssl.key-store=src/main/resources/keystore/crypto.p12 -jar target/crypto-binance.jar
+web: java -jar target/crypto-binance.jar
