@@ -9,3 +9,6 @@ spring:
     multipart:
       max-file-size: 100MB
       max-request-size: 10MB
+crypto:
+  searching:
+    interval-seconds: 2
