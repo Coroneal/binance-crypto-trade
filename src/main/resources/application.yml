@@ -9,6 +9,10 @@ spring:
     multipart:
       max-file-size: 100MB
       max-request-size: 10MB
+springdoc:
+  swagger-ui:
+    path: /api
 crypto:
   searching:
-    interval-seconds: 2
+    interval-seconds: 20
+  default-mode: OFFLINE
